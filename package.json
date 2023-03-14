@@ -1,0 +1,36 @@
+{
+  "name": "pan-lib",
+  "version": "1.0.15",
+  "description": "A lightweight library featuring a collection of small, versatile functions designed to streamline your development experience and enhance productivity.",
+  "main": "./build/src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "npm:publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dereje-getu-tadesse-10/pan-lib.git"
+  },
+  "files": [
+    "build",
+    "src",
+    "README.md"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dereje-getu-tadesse-10/pan-lib/issues"
+  },
+  "homepage": "https://github.com/Dereje-getu-tadesse-10/pan-lib#readme",
+  "devDependencies": {
+    "@types/jest": "^29.4.1",
+    "@types/node": "^18.15.3",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
