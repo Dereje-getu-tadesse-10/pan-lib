@@ -9,9 +9,6 @@ type Clamp = (min: number, max: number, value: number) => number;
 	@param {number} max - The maximum allowed value.
 	@param {number} value - The value to check.
 	@throws {Error} If the minimum value is greater than the maximum value.
-	@throws {Error} If the value is less than the minimum value.
-	@throws {Error} If the value is greater than the maximum value.
-	@returns {number} The checked and possibly corrected value.
  */
 
 export const clamp: Clamp = (min, max, value) => {
