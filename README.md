@@ -6,7 +6,7 @@ $ npm install pan-lib
 
 ## Documentation
 
-### Clamp 
+## Clamp 
 The clamp function takes in three parameters:
 
 - `min` (required): The minimum value that the number parameter can take.
@@ -27,7 +27,7 @@ clamp(5, 1, 1) // Error : min must be less than or equal to max
 #### Throw
 If `min` is greater than `max`, an error is thrown with the message "min must be less than or equal to max".
 
-### Capitalize first letter of a string
+## Capitalize
 
 Function: Capitalize the first letter of a string
 The capitalize function takes in one parameter:
