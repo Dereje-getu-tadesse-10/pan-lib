@@ -58,6 +58,6 @@ truncate('hello world', 5, '!!!'); // returns 'hello!!!'
 ```
 
 #### Throw
-If `string` is empty, an error is thrown with the message "string must not be empty".
+If `string` is empty, an error is thrown with the message "str cannot be null or undefined".
 
 
