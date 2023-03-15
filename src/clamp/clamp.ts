@@ -1,4 +1,3 @@
-type Clamp = (min: number, max: number, value: number) => number;
 
 /**
 	This function returns a value that is constrained between a specified minimum and maximum value.
@@ -10,6 +9,7 @@ type Clamp = (min: number, max: number, value: number) => number;
 	@param {number} value - The value to check.
 	@throws {Error} If the minimum value is greater than the maximum value.
  */
+type Clamp = (min: number, max: number, value: number) => number;
 
 export const clamp: Clamp = (min, max, value) => {
 	if (min > max) throw new Error('min must be less than or equal to max');
