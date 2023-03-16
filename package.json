@@ -15,9 +15,10 @@
   },
   "files": [
     "__tests__",
-    "build",
     "src",
-    "README.md"
+    "README.md",
+    "package.json",
+    "build"
   ],
   "author": "",
   "license": "ISC",
