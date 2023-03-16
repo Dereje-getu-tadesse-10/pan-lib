@@ -60,4 +60,20 @@ truncate('hello world', 5, '!!!'); // returns 'hello!!!'
 #### Throw
 If `string` is empty, an error is thrown with the message "str cannot be null or undefined".
 
+## Chunk 
+The chunk function takes in two parameters:
+- `array` (required): The array to be chunked.
+- `size` (required): The size of the chunked array.
+- `return`: The chunked array.
+
+```js
+import { chunk } from 'pan-lib';
+
+chunk([1, 2, 3, 4, 5], 2); // returns [[1, 2], [3, 4], [5]]
+chunk([1, 2, 3, 4, 5], 3); // returns [[1, 2, 3], [4, 5]]
+```
+
+#### Throw
+If `size` is less than or equal to 0, an error is thrown with the message "size must be greater than 0".
+
 
