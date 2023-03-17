@@ -2,6 +2,7 @@
  * Split an array into chunks of a given size.
  * @param arr
  * @param size
+ * @returns The array of chunks
  */
 
 export const chunk = <T>(arr: T[], size: number): T[][] => {

@@ -76,4 +76,21 @@ chunk([1, 2, 3, 4, 5], 3); // returns [[1, 2, 3], [4, 5]]
 #### Throw
 If `size` is less than or equal to 0, an error is thrown with the message "size must be greater than 0".
 
+## Lerp 
+`lerp` is a critical function for animations, allowing smooth transitions between two states or values of properties.
 
+The lerp function takes in three parameters:
+- `start` (required): The start value.
+- `end` (required): The end value.
+- `amount` (required): The amount to be lerped.
+- `return`: The lerped value.
+
+```js
+import { lerp } from 'pan-lib';
+
+lerp(0, 10, 0.5); // returns 5
+lerp(0, 10, 0.2); // returns 2
+```
+
+#### Throw
+If `amount` is less than 0 or greater than 1, an error is thrown with the message "amount must be between 0 and 1".
