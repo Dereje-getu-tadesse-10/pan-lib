@@ -35,6 +35,6 @@
     "build",
     "package.json",
     "README.md",
-    "types"
+    "types/pan-lib.d.ts"
   ]
 }
