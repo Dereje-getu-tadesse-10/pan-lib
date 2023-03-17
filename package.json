@@ -34,6 +34,7 @@
   "files": [
     "build",
     "package.json",
-    "README.md"
+    "README.md",
+    "types"
   ]
 }
