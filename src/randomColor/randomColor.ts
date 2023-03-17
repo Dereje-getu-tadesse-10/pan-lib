@@ -59,3 +59,4 @@ export const generateRandomColor = (): RandomColor => {
 	return new RandomColor();
 }
 
+console.log(generateRandomColor().toHex());
