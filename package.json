@@ -1,6 +1,6 @@
 {
   "name": "pan-lib",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "A lightweight library featuring a collection of small, versatile functions designed to streamline your development experience and enhance productivity.",
   "main": "./build/src/index.js",
   "scripts": {
