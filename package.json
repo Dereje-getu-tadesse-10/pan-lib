@@ -3,6 +3,7 @@
   "version": "1.6.4",
   "description": "A lightweight library featuring a collection of small, versatile functions designed to streamline your development experience and enhance productivity.",
   "main": "./build/src/index.js",
+  "types": "types/pan-lib.d.ts",
   "scripts": {
     "test": "jest",
     "build": "tsc",
