@@ -1,12 +1,19 @@
 # pan-lib
 
 ```
-$ npm install pan-lib
+ pnpm install pan-lib
 ```
 
-## Documentation
+# Documentation
 
-## Clamp 
+- [Clamp](#clamp)
+- [Capitalize](#capitalize)
+- [Truncate](#truncate)
+- [Chunk](#chunk)
+- [Lerp](#lerp)
+- [Random color](#random-color)
+
+# Clamp 
 The clamp function takes in three parameters:
 
 - `min` (required): The minimum value that the number parameter can take.
@@ -27,7 +34,7 @@ clamp(5, 1, 1) // Error : min must be less than or equal to max
 #### Throw
 If `min` is greater than `max`, an error is thrown with the message "min must be less than or equal to max".
 
-## Capitalize
+# Capitalize
 
 Function: Capitalize the first letter of a string
 The capitalize function takes in one parameter:
@@ -43,7 +50,7 @@ capitalize('Hello'); // returns 'Hello'
 #### Throw
 if `srting` is empty, an error is thrown with the message "string must not be empty".
 
-### Truncate 
+# Truncate 
 The truncate function takes in two parameters:
 - `string` (required): The string to be truncated.
 - `length` (required): The length of the truncated string.
@@ -60,7 +67,7 @@ truncate('hello world', 5, '!!!'); // returns 'hello!!!'
 #### Throw
 If `string` is empty, an error is thrown with the message "str cannot be null or undefined".
 
-## Chunk 
+# Chunk 
 The chunk function takes in two parameters:
 - `array` (required): The array to be chunked.
 - `size` (required): The size of the chunked array.
@@ -76,7 +83,7 @@ chunk([1, 2, 3, 4, 5], 3); // returns [[1, 2, 3], [4, 5]]
 #### Throw
 If `size` is less than or equal to 0, an error is thrown with the message "size must be greater than 0".
 
-## Lerp 
+# Lerp 
 `lerp` is a critical function for animations, allowing smooth transitions between two states or values of properties.
 
 The lerp function takes in three parameters:
@@ -94,3 +101,14 @@ lerp(0, 10, 0.2); // returns 2
 
 #### Throw
 If `amount` is less than 0 or greater than 1, an error is thrown with the message "amount must be between 0 and 1".
+
+# Random color
+The randomColor function takes in no parameters:
+- `return`: A random color to hex or rgb.
+
+```js
+import { generateRandomColor } from 'pan-lib';
+
+generateRandomColor().toHex(); // returns '#f2f2f2'
+generateRandomColor().toRgb(); // returns 'rgb(242, 242, 242)'
+```
