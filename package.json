@@ -36,7 +36,7 @@
     "lerp animation",
     "truncate string",
     "truncate",
-    "capitalize string",
+    "capitalize string"
   ],
   "devDependencies": {
     "@types/jest": "^29.4.1",
