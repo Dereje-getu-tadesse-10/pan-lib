@@ -1,4 +1,4 @@
-import { capitalize } from "@/capitalize/capitalize";
+import { capitalize } from "../../src"
 
 describe("capitalize", () => {
 

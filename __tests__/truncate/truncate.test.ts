@@ -1,4 +1,4 @@
-import { truncate } from "@/truncate/truncate";
+import { truncate } from "../../src"
 
 describe("truncate", () => {
 

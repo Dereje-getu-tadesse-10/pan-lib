@@ -1,4 +1,4 @@
-import { clamp } from "@/clamp/clamp";
+import { clamp } from "../../src"
 
 
 describe("clamp", () => {
