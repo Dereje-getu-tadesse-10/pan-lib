@@ -1,5 +1,5 @@
 // pan-lib.d.ts
-declare module 'types/pan-lib' {
+declare module 'pan-lib' {
 	export const clamp: (value: number, min: number, max: number) => number;
 	export const capitalize: (str: string) => string;
 	export const truncate: (str: string, length: number) => string;
