@@ -5,10 +5,11 @@
     "lib": ["ESNext"],
     "allowJs": true,
     "outDir": "build",
+    "typeRoots": ["./node_modules/@types", "./types"],
     "rootDir": "./",
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-  },
+    "resolveJsonModule": true
+  }
 }
